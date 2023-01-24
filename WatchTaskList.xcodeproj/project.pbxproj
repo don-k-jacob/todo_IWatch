@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		626385B129800E8F00B4FBB6 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626385B029800E8F00B4FBB6 /* ItemDetail.swift */; };
 		62E633D7297FA8B90074D9E4 /* WatchTaskList Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 62E633D6297FA8B90074D9E4 /* WatchTaskList Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		62E633DC297FA8B90074D9E4 /* WatchTaskListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E633DB297FA8B90074D9E4 /* WatchTaskListApp.swift */; };
 		62E633DE297FA8B90074D9E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E633DD297FA8B90074D9E4 /* ContentView.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		626385B029800E8F00B4FBB6 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		62E633D0297FA8B90074D9E4 /* WatchTaskList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchTaskList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E633D6297FA8B90074D9E4 /* WatchTaskList Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchTaskList Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E633DB297FA8B90074D9E4 /* WatchTaskListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTaskListApp.swift; sourceTree = "<group>"; };
@@ -94,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		626385AF29800E7500B4FBB6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				626385B029800E8F00B4FBB6 /* ItemDetail.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		62E633C9297FA8B90074D9E4 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +128,7 @@
 		62E633DA297FA8B90074D9E4 /* WatchTaskList Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				626385AF29800E7500B4FBB6 /* view */,
 				62E633DB297FA8B90074D9E4 /* WatchTaskListApp.swift */,
 				62E633DD297FA8B90074D9E4 /* ContentView.swift */,
 				62E633DF297FA8BD0074D9E4 /* Assets.xcassets */,
@@ -310,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62E633DE297FA8B90074D9E4 /* ContentView.swift in Sources */,
+				626385B129800E8F00B4FBB6 /* ItemDetail.swift in Sources */,
 				62E633DC297FA8B90074D9E4 /* WatchTaskListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
